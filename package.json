@@ -1,0 +1,26 @@
+{
+  "name": "nostromo",
+  "version": "1.0.0",
+  "description": "Node js experiments",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wey-yu/nostromo.git"
+  },
+  "author": "@k33g_org",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wey-yu/nostromo/issues"
+  },
+  "homepage": "https://github.com/wey-yu/nostromo#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "promise": "^7.1.1",
+    "redis": "^2.6.5"
+  }
+}
