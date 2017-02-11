@@ -4,6 +4,8 @@ const bodyParser = require("body-parser");
 
 let port = process.env.PORT || 8080;
 
+let message = "I ❤️ 🤖";
+
 let app = express();
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended: false}))
